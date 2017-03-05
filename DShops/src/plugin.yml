@@ -1,0 +1,6 @@
+name: DShops
+version: 1.0
+depends: [WorldGuard]
+main: co.uk.RandomPanda30.DShops.A
+authors:
+  - RandomPanda30

@@ -1,0 +1,27 @@
+name: SAO
+main: co.uk.RandomPanda30.SAO.SAO
+version: 1.0
+authors:
+  - RandomPanda30
+commands:
+  jpanda:
+    description: General command
+    usage: NULL
+  it:
+    descritpion: Item transfer command
+    usage: /it
+  backup:
+    description: Backup command
+    usage: /backup
+  whitelist:
+    description: Whitelist command
+    usage: /whitelist
+  ban:
+    description: Ban command
+    usage: /ban
+  reward:
+    description: Reward command
+    usage: /reward
+  fr:
+    description: Floor reset command
+    usage: /fr

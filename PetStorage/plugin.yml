@@ -1,0 +1,9 @@
+name: PetStorage
+version: 1.0
+main: co.uk.randompanda30.petstorage.PetStorage
+authors:
+  - RandomPanda30
+commands:
+  ps:
+    description: Main PetStorage command
+    usage: /ps

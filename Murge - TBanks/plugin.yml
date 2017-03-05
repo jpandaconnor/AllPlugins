@@ -1,0 +1,10 @@
+name: Murge
+main: co.uk.RandomPanda30.Murge.Murge
+version: 1.3.9
+softdepend: [Vault]
+authors:
+  - RandomPanda30
+commands:
+  murge:
+    description: Basic argument
+    usage: /murge

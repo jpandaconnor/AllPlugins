@@ -1,0 +1,6 @@
+name: IAFK
+main: co.uk.RandomPanda30.IAFK.Main
+version: 1.0
+commands:
+  iafk:
+    description: Will make you invisable once you say this command

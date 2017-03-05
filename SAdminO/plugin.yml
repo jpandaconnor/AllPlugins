@@ -1,0 +1,7 @@
+name: SAdminO
+main: co.uk.RandomPanda30.SAdminO.SAdminO
+version: 1.0
+commands:
+  jpanda:
+    description: General command used in the code
+    usage: /jpanda

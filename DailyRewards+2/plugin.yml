@@ -1,0 +1,7 @@
+name: DailyRewardsPlus
+main: co.uk.RandomPanda30.DailyRewards.DR
+version: 2.0
+commands:
+  drp:
+    usage: /drp
+    description: Base command

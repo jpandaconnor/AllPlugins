@@ -1,0 +1,63 @@
+package co.uk.RandomPanda30.Murge.Files;
+
+public enum Config {
+
+	WORLD ("world"),
+
+	WORLDBORDER_ENABLED (false),
+	WORLDBORDER_CENTRE ("CENTRE"),
+	WORLDBORDER_SIZE (10.0),
+	WORLDBORDER_DAMAGE (5),
+
+	TIMEBEFOREPURGE (30),
+	PURGEDURATION (20),
+	WORLDBORDERDEATHTHRESHOLD (5),
+
+	EFFECT_BLEED (true),
+
+	LIGHTNINGONDEATH (true),
+	MOVETOSPECTATEWHENNOPURGE (false),
+
+	USINGVAULT (false),
+
+	BROADCAST_PLAYERLEAVESCOMBAT (true),
+
+	CURRENCYSTRING ("$"),
+
+	FIGHTCOOLDOWN (1),
+
+	WEATHERENABLED (false),
+
+	BLOCKBREAKDURINGPURGE (false),
+	BLOCKPLACEURINGPURGE (false),
+	MOBDAMAGEASCOMBAT (false),
+
+	MONEY_ONKILL (20),
+	MONEY_ONPURGESURVIVE (50),
+
+	SPAWNLOCATION (""),
+	SPECTATORLOCATION (""),
+
+	BUNGEE_ENABLE (false),
+	BUNGEE_LOBBY ("lobby"),
+	BUNGEE_SENDONLEAVE (true),
+	BUNGEE_SENDONDEATH (false),
+	BUNGEE_SENDDELAY (2),
+
+	MYSQL_ENABLE (false),
+	MYSQL_HOST ("localhost"),
+	MYSQL_DATABASE ("database"),
+	MYSQL_USER ("user"),
+	MYSQL_PASSWORD ("change"),
+	MYSQL_PORT (3306),
+
+	COMMANDS_START (true),
+
+	PVPDURINGGRACE (false);
+
+	public Object value;
+
+	Config (Object value) {
+		this.value = value;
+	}
+}

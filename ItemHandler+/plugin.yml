@@ -1,0 +1,10 @@
+name: ItemHandlerPlus
+version: 1.0
+main: co.uk.RandomPanda30.ItemHandlerPlus.A
+depened: [ChestCommnads]
+authors:
+  - RandomPanda30
+commands:
+  ihp:
+    description: Use this command to access the ItemHandler+ menu
+    usage: /ihp

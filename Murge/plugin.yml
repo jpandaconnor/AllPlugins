@@ -1,0 +1,19 @@
+name: Murge
+main: co.uk.RandomPanda30.Murge.Murge
+version: 1.4
+softdepend: [Vault]
+authors:
+  - RandomPanda30
+commands:
+  murge:
+    description: Basic argument
+    usage: /murge
+  start:
+    description: Starts the purge
+    usage: /murge start
+  stop:
+    description: Stops the purge
+    usage: /murge stop
+  fixwb:
+    description: Resets the world border
+    usage: /murge fixwb

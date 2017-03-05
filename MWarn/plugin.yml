@@ -1,0 +1,9 @@
+name: MWarn
+version: 1.1
+main: co.uk.RandomPanda30.MWarn.A
+authors:
+  - RandomPanda30
+commands:
+  mwarn:
+    description: Default argument
+    usage: /mwarn

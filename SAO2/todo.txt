@@ -1,0 +1,35 @@
+Party -
+
+- Access in SAO menu
+- No party: create one
+- If party
+    - Add
+    - Kick
+    - Change leader
+    - Delete
+
+    - Party stats
+
+    - Party details
+        - Party limits
+        - Shared XP
+
+    Logout timeout
+
+Dungeons -
+
+- Access in SAO menu
+- If clicked
+    - If no party
+        - Warn that party must be made first
+    - If party
+        - If not sent
+            - Dungeon finder UI
+
+- Dungeon setup
+    - Place spawn block
+        - Name UI
+            - Done, save
+
+
+

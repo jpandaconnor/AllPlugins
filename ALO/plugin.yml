@@ -1,0 +1,6 @@
+name: ALO
+main: co.uk.RandomPanda30.ALO.ALO
+version: 1.0
+authors:
+  - RandomPanda30
+description: Executes multiple commands in one commands

@@ -1,0 +1,4 @@
+name: PlayerRestrictions
+version: 1.0
+main: co.uk.randompanda30.playerrestrictions.PlayerRestrictions
+depend: [Essentials]

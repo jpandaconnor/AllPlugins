@@ -1,0 +1,7 @@
+name: AreaRestrict
+version: 1.0
+main: co.uk.randompanda30.arearestrict.AreaRestrict
+commands:
+  ar:
+    description: Base command
+    usage: /ar

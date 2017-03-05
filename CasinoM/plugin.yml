@@ -1,0 +1,10 @@
+name: CasinoM
+main: co.uk.RandomPanda30.CasinoM.CasinoM
+version: 1.0
+authors:
+  - RandomPanda30
+commands:
+  casino:
+    description: Base command
+    usage: /casino
+    

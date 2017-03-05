@@ -1,0 +1,7 @@
+name: OreFireworks
+main: co.uk.RandomPanda30.OreFireworks.Main
+version: 1.0
+commands:
+  test:
+    usage: /<command>
+    description: N/A

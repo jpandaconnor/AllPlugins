@@ -1,0 +1,10 @@
+name: Party
+main: co.uk.randompanda30.party.Party
+version: 1.0
+commands:
+  party:
+    description: General party command
+    usage: do /party help for help
+  pc:
+    description: Party chat command
+    usage: /pc message

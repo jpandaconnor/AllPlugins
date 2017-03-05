@@ -1,0 +1,17 @@
+name: SAOHub
+main: co.uk.RandomPanda30.SAOHub.Hub
+version: 1.0
+commands:
+  spawn:
+    description: Sends you to spawn
+    usage: /spawn
+  plugins:
+    description: Shows plugins....Supposed to anyway
+    usage: /plugin
+    aliases: [pl]
+  help:
+    description: Shows le help
+    usage: /help
+  setspawn:
+    description: Sets spawn
+    usage: /setspawn

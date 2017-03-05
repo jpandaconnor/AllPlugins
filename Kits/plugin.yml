@@ -1,0 +1,9 @@
+name: Kits
+version: 1.0
+main: co.uk.RandomPanda30.Kits.Kits
+authors:
+  - RandomPanda30
+commands:
+  block:
+    description: Gives blocks to set location
+    usage: /block

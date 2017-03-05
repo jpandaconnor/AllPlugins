@@ -1,0 +1,11 @@
+name: VShop
+main: co.uk.RandomPanda30.VShop.A
+version: 1.0
+depend: [Vault]
+commands:
+  vshop:
+    description: General arg
+    usage: /vshop
+  wand:
+    description: Gives the player the VShop wand
+    usage: /vshop wand

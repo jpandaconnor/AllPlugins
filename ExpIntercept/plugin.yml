@@ -1,0 +1,12 @@
+name: ExpIntercept
+version: 1.0
+main: co.uk.RandomPanda30.ExpIntercept.ExpIntercept
+authors:
+  - RandomPanda30
+commands:
+  gxplevel:
+    description: Base command
+    usage: /gxplevel
+  booster:
+    description: Sets GXP level
+    usage: /booster

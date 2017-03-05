@@ -1,0 +1,11 @@
+name: Basics
+description: Basic plugin for ediT
+version: 1.0
+main: com.ediTv2.Basics.Basics
+commands:
+  mutechat:
+    description: Mutes the chat
+    aliases: [hi2]
+  unmutechat:
+    description: Unmutes the chat
+    aliases: [hi]

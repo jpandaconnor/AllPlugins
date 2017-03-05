@@ -1,0 +1,7 @@
+name: ExpIntercept
+main: co.uk.RandomPanda30.ExpIntercept2.Main
+version: 1.0
+commands:
+  booster:
+    description: base command
+    usage: /booster

@@ -1,0 +1,9 @@
+name: DailyRewardsPlus
+main: co.uk.RandomPanda30.DailyRewardsPlus.A
+version: 1.6
+commands:
+  rewards:
+    description: Basic command
+    usage: /rewards
+authors:
+  - RandomPanda30

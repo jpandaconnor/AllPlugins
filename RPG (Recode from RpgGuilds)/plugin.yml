@@ -1,0 +1,35 @@
+name: RPG
+main: co.uk.RandomPanda30.RPG.RPG
+version: 1.0
+description: RPG plugin for MC
+depend: [Vault]
+authors:
+  - RandomPanda30
+commands:
+    guild:
+        description: Base guild command
+        usage: /<guild> [create, invite, leave, join, gmotd, kick, disband]
+    g:
+        description: Guild chat
+        usage: /<g> [guild chat message]
+    gbank:
+        description: guild bank command
+        usage: to be determined
+    grank:
+        description: guild rank
+        usage: /<grank> [edit, create, delete, list, perms, set, title]
+    o:
+        description: Guild chat
+        usage: /<o> [officer chat message]
+    gtp:
+        description: Guild teleport
+        usage: /<gtp> {player name}
+    guilds:
+        description: Guild lists
+        usage: /<guilds>
+    lookup:
+        description: look up player stats
+        usage: /<lookup> (player name)
+    hq:
+        description: set or tp to your hq
+        usage: /<hq> [set, tp]

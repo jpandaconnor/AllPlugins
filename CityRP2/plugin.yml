@@ -1,0 +1,8 @@
+name: CityRP
+main: co.uk.RandomPanda30.CityRP.CityRP
+version: 1.0
+commands:
+  jpanda:
+    description: Passer command
+  cityrp:
+    description: Basic argument

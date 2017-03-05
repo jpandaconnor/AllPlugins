@@ -1,0 +1,12 @@
+name: Phones
+main: co.uk.RandomPanda30.Phones.Phones
+version: 1.0
+authors:
+  - RandomPanda30
+commands:
+  phones:
+    description: Base command
+    usage: /phones
+  phone:
+    description: Will give you a phone!
+    usage: /phone

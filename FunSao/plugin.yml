@@ -1,0 +1,10 @@
+name: FunSao
+main: co.uk.RandomPanda30.FunSao.Main
+version: 1.0
+commands:
+  ueat:
+    description: Allows you to eat a player
+    usage: /ueat <Player name>
+  ufab:
+    description: Makes you fab
+    usage: /ufab <Player name>

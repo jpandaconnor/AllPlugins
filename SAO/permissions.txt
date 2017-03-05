@@ -1,0 +1,58 @@
+sao.beater
+sao.beaterplus
+
+sao.itemtransfer.create
+sao.itemtransfer.delete
+sao.itemtransfer.set
+sao.itemtransfer.transferall
+sao.itemtransfer.transfers.<Name>
+
+sao.backup.start
+sao.backup.notification
+
+sao.reward.create
+sao.reward.delete
+sao.reward.edit
+
+sao.admin.ban
+sao.admin.kick
+
+-- sao.admin.tempban
+
+
+
+sao.admin.whitelist
+
+
+        /*
+        /it create <Transfer name> <Server now> <Destination server>
+        /it delete <Transfer name>
+        /it set <Transfer name> <beaterplus, beater, player> <Item limit>
+        /it transfer <Transfer name>
+
+        Transfer name
+          limits:
+            BeaterPlus:
+              limit: 5
+            Beater:
+              limit: 3
+            Player:
+              limit: 1
+          Transfered:
+            - In Database
+         */
+
+      new BukkitRunnable()
+      {
+        public void run()
+        {
+          if (System.currentTimeMillis() - main.GetConfig.getLong("lastBackup") >= main.GetConfig.getInt("backupDelayInHours") * 3600000) {
+            if ((Backup.timer) && (main.GetConfig.getBoolean("autoBackup")))
+            {
+              if (!Backup.backingUp) {
+                Backup.backup();
+              }
+            }
+            else
+            {
+              Backup.timerTrue = false;

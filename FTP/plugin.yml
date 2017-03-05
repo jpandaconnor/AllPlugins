@@ -1,0 +1,7 @@
+name: FTP
+version: 1.0
+main: co.uk.RandomPanda30.FTP.Main
+commands:
+  ttp:
+    description: Toggles teleport on spawn
+    usage: /ttp

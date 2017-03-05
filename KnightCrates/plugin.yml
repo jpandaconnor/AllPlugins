@@ -1,0 +1,13 @@
+name: KnightCrates
+main: co.uk.RandomPanda30.KnightCrates.KnightCrates
+version: 1.0
+commands:
+  crate:
+    description: Gives an admin a crate
+    usage: /crate
+  crateinv:
+    description: Opens the inventory for a crate
+    usage: /crateinv
+  xyfx:
+    description: secret
+    usage: /xyfx

@@ -1,0 +1,11 @@
+name: Guilds
+version: 1.0
+main: co.uk.RandomPanda30.Guilds.Guilds
+loadbefore: [Multiverse-Core]
+commands:
+  guild:
+    description: Basic guild command
+    usage: /guild
+  jpanda:
+    description: Console workaround
+    usage: /jpanda

@@ -1,0 +1,17 @@
+name: Guilds
+version: 1.0
+main: co.uk.randompanda30.fileguilds.Guilds
+author: RandomPanda30
+commands:
+  guild:
+    description: Main command for guilds plugin
+    usage: Type /guild help for help
+  g:
+    description: General chat for guilds plugin
+    usage: /g message
+  a:
+    description: General chat for guilds plugin
+    usage: /g message
+  al:
+    description: General chat for allies
+    usage: /al message

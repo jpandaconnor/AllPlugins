@@ -1,0 +1,6 @@
+name: ServerBasics
+version: 1.0
+main: co.uk.RandomPanda30.Wild.Main
+commands:
+  wild:
+    description: Takes you to the wild

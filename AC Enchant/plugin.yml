@@ -1,0 +1,7 @@
+name: AC Enchant
+version: 1.0
+main: co.uk.RandomPanda30.Main.Main
+commands:
+  ac:
+    description: Will show the inventory
+    usage: /ac

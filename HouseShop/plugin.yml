@@ -1,0 +1,9 @@
+name: HouseShop
+version: 1.0
+main: co.uk.randompanda30.houseshop.HouseShop
+commands:
+  houseshop:
+    description: Base command for player housing
+    usage: §cError whilst doing this command. Do /houseshop help for help
+    aliases:
+      - hs

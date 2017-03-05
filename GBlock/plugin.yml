@@ -1,0 +1,4 @@
+name: GBlock
+main: co.uk.RandomPanda30.GBlock.GBlock
+loadbefore: [Multiverse-Core, RpgGuilds]
+version: 1.0

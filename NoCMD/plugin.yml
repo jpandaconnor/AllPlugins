@@ -1,0 +1,9 @@
+name: NoCMD
+main: co.uk.RandomPanda30.NoCMD.NoCMD
+version: 1.0
+authors:
+  - RandomPanda30
+commands:
+  nocmd:
+    description: Blocks or unblocks all commands
+    usage: /nocmd

@@ -1,0 +1,15 @@
+name: SAO
+main: co.uk.randompanda30.sao.SAO
+version: 1.0
+commands:
+  sao:
+    description: Main command, plz change
+    usage: /sao
+  booster:
+    description: Booster command thing
+    usage: \u00a7Do /booster for help
+  levelrestrict:
+    description: ItemRestrict thing
+    usage: \u00a7Do /itemrestrict for help
+    aliases:
+      - lr

@@ -1,0 +1,8 @@
+name: Markets
+main: co.uk.RandomPanda30.Markets.Main
+version: 1.0
+description: Markets plugin
+commands:
+  mk:
+    description: Will give you the wand
+    usage: /mk wand

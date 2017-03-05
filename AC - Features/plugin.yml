@@ -1,0 +1,14 @@
+name: AC - Features
+version: 1.0
+main: co.uk.RandomPanda30.Main.Main
+softdepend: [Essentials]
+commands:
+  ac:
+    description: Shows the UI for AC server
+    usage: /ac
+  t:
+    description: Will give someone money
+    usage: /t
+  bet:
+    description: Add to the jackpot
+    usage: /bet

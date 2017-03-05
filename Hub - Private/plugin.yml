@@ -1,0 +1,10 @@
+name: Hub
+main: co.uk.RandomPanda30.Main.Main
+version: 1.0
+commands:
+  hub:
+    description: Teleports a player to a location
+    usage: /hub
+permissions:
+  hub.alwayssee:
+    description: Shows players from hidden players

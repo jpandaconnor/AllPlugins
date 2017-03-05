@@ -1,0 +1,22 @@
+name: ServerBasics
+version: 1.0
+main: co.uk.RandomPanda30.Basics.Main
+commands:
+  ad:
+    description: Lets you type in the admin chat
+    usage: /ad <Message>
+  apply:
+    description: Links you to the apply page
+    usage: /apply
+  donate:
+    description: Links you to the donate page
+    usage: /donate
+  facebook:
+    description: Links you to the facebook page
+    aliases: fb
+  vote:
+    description: Links you to the vote page
+    usage: /vote
+  twitter:
+    description: Links you to the twitter page
+    usage: /twitter

@@ -1,0 +1,66 @@
+name: BukkitAPI
+main: co.uk.RandomPanda30.Main.Main
+version: 1.0
+softdepend: [TagAPI]
+commands:
+  kickall:
+    description: Testing ban all
+    usage: /kickall
+  ban:
+    description: Ban's a player
+    usage: /ban <Player>
+  kick:
+    description: Kick's a player
+    usage: /kick <Player>
+  kill:
+    description: Kill's a player
+    usage: /kill <Player>
+  t:
+    description: Teleports a player
+    usage: /t <Player>
+  th:
+    description: Teleports a player to you
+    usage: /th <Player>
+  mute:
+    description: Will mute a player
+    usage: /mute <Player>
+  unmute:
+    description: Will unmute a player
+    usage: /unmute <Player>
+  slap:
+    description: Will slap a player
+    usage: /slap <Player>
+  votekick:
+    description: Will vote a player to be kicked
+    usage: /votekick <Player>
+  voteban:
+    description: Will vote a player to be banned
+    usage: /voteban <Player>
+  ykick:
+    description: Will allow a player to be vote kicked
+    usage: /ykick
+  nkick:
+    description: Will allow a player to stop a player from being kicked
+    usage: /nkick
+  op:
+    description: Will op a player
+    usage: /op <Player>
+  deop:
+    description: Will deop a player
+    usage: /deop <Player>
+  mod:
+    description: Will request a mod
+    usage: /mod
+  distress:
+    description: Will spam a player with sound
+    usage: /distress <Player>
+  info:
+    description: Will send a player the server info
+    usage: /info
+permissions:
+  api.owner:
+    description: Gives a player ower
+  api.admin:
+    description: Give a player admin
+  api.documentor:
+    description: Gives a player documentor

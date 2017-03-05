@@ -1,0 +1,4 @@
+name: CityRP
+main: org.jpanda.cityrp.CityRP
+version: 1.0
+load: STARTUP

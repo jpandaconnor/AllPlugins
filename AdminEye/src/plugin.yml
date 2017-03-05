@@ -1,0 +1,107 @@
+name: AdminEye
+main: nl.Steffion.AdminEye.AdminEye
+version: 0.1.1_ALPHA
+authors:
+  - Steffion
+  - RandomPanda30
+load: POSTWORLD
+commands:
+  AdminEye:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - ae
+  ban:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - kickban
+  bring:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - summon
+        - s
+        - tphere
+  deop:
+    usage: /<command>
+    description: N/A
+  fly:
+    usage: /<command>
+    description: N/A
+  freeze:
+    usage: /<command>
+    description: N/A
+  gamemode:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - gm
+  hunger:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - feed
+  goto:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - tp
+        - teleport
+  hp:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - heal
+        - h
+  kick:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - k
+        - disconnect
+  mute:
+    usage: /<command>
+    description: N/A
+  op:
+    usage: /<command>
+    description: N/A
+  slap:
+    usage: /<command>
+    description: N/A
+  slay:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - kill
+  unban:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - uban
+  unfly:
+    usage: /<command>
+    description: N/A
+  unfreeze:
+    usage: /<command>
+    description: N/A
+  unmute:
+    usage: /<command>
+    description: N/A
+  votekick:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - vk
+  vote_no:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - no
+        - n
+  vote_yes:
+    usage: /<command>
+    description: N/A
+    aliases:
+        - yes
+        - y

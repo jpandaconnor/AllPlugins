@@ -1,0 +1,18 @@
+  String[] cmdArgs = { "echo", "Hello", "World!" };
+    Process process = Runtime.getRuntime().exec(cmdArgs);
+    BufferedReader in = new BufferedReader(new InputStreamReader(process.getInputStream()));
+    String line = null;
+    while ((line = in.readLine()) != null) {
+        System.out.println(line);
+    }
+
+    #!/bin/bash
+    SRCDIR=”/home/<username>/Documents/my_work/”
+    DESTDIR=”/home/<username>/Backups/”
+    FILENAME=ug-$(date +%-Y%-m%-d)-$(date +%-T).tgz
+    tar –create –gzip –file=$DESTDIR$FILENAME $SRCDIR
+
+    String[] cmdArgs = { "myscript", "Hello", "World!" };
+        Process process = Runtime.getRuntime().exec(cmdArgs);
+
+        du -h -c directory|tail -1ch

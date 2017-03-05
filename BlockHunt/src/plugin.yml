@@ -1,0 +1,38 @@
+name: BlockHunt
+version: 1.0.0_ALPHA_B6
+#description: ""
+load: POSTWORLD
+author: Steffion
+authors: [RandomPanda30]
+#website: http://
+main: nl.Steffion.BlockHunt.BlockHunt
+database: false
+#depend: []
+prefix: "BlockHunt v1.0.0_ALPHA_B6"
+softdepend: [LibsDisguises, ProtocolLib]
+#loadbefore: []
+commands:
+  blockhunt:
+    description: Main command for the BlockHunt plugin.
+    aliases: [bh, hs, has, hideandseek, seekandfind, saf, sf, prophunt, ph]
+    permission: blockhunt.help
+    permission-message: "§cI'm sorry, but I cannot allow you to do that. Insufficient permissions. <<permission>>"
+    usage: "§cUsage: /blockhunt: to consult help"
+permissions:
+  blockhunt.*:
+    default: op
+    children:
+      blockhunt.create:
+        default: op
+      blockhunt.edit:
+        default: op
+      blockhunt.help:
+        default: true
+      blockhunt.join:
+        default: true
+      blockhunt.leave:
+        default: true
+      blockhunt.list:
+        default: true
+      blockhunt.remove:
+        default: op
